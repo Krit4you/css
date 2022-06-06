@@ -1,0 +1,195 @@
+body {
+    background: rgba(196, 207, 206, 0.899);
+    color: rgb(25, 43, 41);
+    font-size: 19px;
+    font-weight: normal;font-family: 'Courier New', Courier, monospace;
+    /* font: normal 19px 'Courier New', Courier, monospace; */ 
+}
+
+a {
+    color: black;
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+a:active {
+    color: blue;
+}
+
+a:visited {
+    color: grey;
+}
+
+.avatar {
+    width: 190px;
+    border-radius: 15px; 
+    box-shadow: 5px 6px 7px rgba(0, 0, 0, 0.25); 
+} 
+
+.info {
+    display: flex;
+    margin-bottom: 20px;
+}
+
+@media (max-width: 700px) {
+    .info {
+        text-align: center;
+        display: block;
+    }
+}
+
+.info-text {
+    margin-left: 30px;
+}
+
+.info-text h4 {
+    margin-bottom: 10px;
+}
+
+.info p {
+    color: rgb(0, 0, 0,);
+    margin: 0;
+    font-style: italic;
+    text-decoration: none;
+    /* text-transform: capitalize; */
+}
+
+/* Box Model */
+
+.container {
+   max-width: 750px;
+   margin: auto;
+   padding-top: 20px;
+}
+
+/* .social {
+    background-color: #cd5932b8;
+    padding: 10px ;
+    border: 3px solid black;
+    margin: 5px;
+} */
+
+/* .box-model div {
+    float: left;
+    background: #cd5932b8;
+    height: 150px;
+    width: 25%;
+    border: 3px solid black;
+    box-sizing: border-box;
+
+} */
+
+.bg-aqua {
+    background: rgba(0, 255, 255, 0.273);
+}
+
+.bg-aquamarine {
+    background: rgba(127, 255, 212, 0.338);
+}
+
+.bg-bisquet {
+    background: rgba(255, 228, 196, 0.532);
+}
+
+.bg-blueviolet {
+    background: rgba(137, 43, 226, 0.301);
+}
+
+.card {
+    padding: 15px 20px ;
+    margin-bottom: 20px;
+    border-radius: 20px;
+}
+
+.card h2 {
+   margin-bottom: 10px; 
+}
+
+.list {
+    padding: 0 33px;
+    /* list-style: none; */
+}
+
+.list li {
+    /* color: grey; */
+    margin-bottom: 10px;
+    /* border-bottom: 1px solid grey; */
+}
+
+.table {
+    width: 100%
+}
+
+.table td:nth-child(2),
+td:nth-child(3) {
+    color: rgb(90, 86, 86);
+}
+
+.link-list {
+    list-style: none;
+    padding: 0%;
+}
+
+.contact h2 {
+    text-align: center;
+}
+
+.form-group label {
+    display: block;
+    font-size: 14px;
+    color: rgb(90, 86, 86);
+}
+
+.form-group input,
+.form-group textarea {
+    width: 100%;
+    box-sizing: border-box;
+    border: none;
+    background: transparent;
+    border-bottom: 1px solid rgb(94, 94, 94);
+    color: #000;
+    padding: 15px 0px 10px;
+    outline: none;
+    font-family: inherit;
+}
+
+.row {
+    display: flex;
+    margin-bottom: 20px;
+}
+
+.row > .form-group {
+    width: 50%;
+}
+
+.row > .form-group:first-child {
+    margin-right: 20px;
+}
+
+.btn {
+    background: #000;
+    padding: 5px 10px;
+    color: white;
+    border: none;
+    font-family: inherit;
+    cursor: pointer;
+}
+
+.btn:hover {
+    opacity: 0,9;
+}
+
+/* .position {
+    margin-top: 40px;
+    border: 4px solid black;
+    padding: 20px;
+}
+
+.box {
+    width: 50px; 
+    height: 50px;
+    background: lightcoral;
+} */
